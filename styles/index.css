@@ -1,0 +1,4 @@
+.container{height: 100%;position:relative;}
+.user-img{padding:0.2rem 0;position: absolute;top:-3rem;left:0;width: 100%;}
+.user-img img{width: 2rem;height: 2rem;border-radius:50%;}
+.user-img h3{font-size: 0.4rem;}
