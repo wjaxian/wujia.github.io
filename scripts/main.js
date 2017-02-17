@@ -7,7 +7,7 @@ $(function(){
         afterLoad: function(anchorLink, index){
             switch (index) {
                 case 1:
-                    $(".user-img").delay(500).animate({
+                    $(".user-img").delay(300).animate({
                         top:"0"
                     },1500,'easeOutExpo');
                     break;
@@ -25,7 +25,7 @@ $(function(){
         onLeave: function(index, direction){
             switch (index) {
                 case 1:
-                    $(".user-img").delay(500).animate({
+                    $(".user-img").delay(300).animate({
                         top:"-3rem"
                     },1500,'easeOutExpo');
                     break;
