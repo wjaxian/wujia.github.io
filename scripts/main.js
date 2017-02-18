@@ -28,7 +28,12 @@ $(function() {
                     }, 1500, "easeOutExpo");
                     break;
                 case 3:
-
+                    $(".section3 h3").delay(300).animate({
+                        left: "0"
+                    }, 1500, "easeOutExpo");
+                    $(".zyjn").delay(800).animate({
+                        left: "0"
+                    }, 1500, "easeOutExpo");
                     break;
                 case 4:
 
@@ -39,7 +44,7 @@ $(function() {
             switch (index) {
                 case 1:
                     $(".user-img").delay(300).animate({
-                        top: "-3rem"
+                        top: "-3.5rem"
                     }, 1500, 'easeOutExpo');
                     $(".user-message").find("p").delay(400).animate({
                         marginLeft: "-100%"
@@ -55,7 +60,12 @@ $(function() {
 
                     break;
                 case 3:
-
+                    $(".section3 h3").delay(300).animate({
+                        left: "-100%"
+                    }, 1500, "easeOutExpo");
+                    $(".zyjn").delay(800).animate({
+                        left: "-100%"
+                    }, 1500, "easeOutExpo");
                     break;
                 case 4:
 
